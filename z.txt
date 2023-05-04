@@ -1,0 +1,45 @@
+PS D:\Projects\mern-tutorial> npm init    //first command
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help init` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (mern-tutorial)
+version: (1.0.0)                                                                                                                                                 
+description: Goalsetter app for youtube tutorial
+entry point: (index.js) server.js
+test command:                                                                                                                                                    
+git repository:                                                                                                                                                  
+keywords:                                                                                                                                                        
+author: dinod tharinda                                                                                                                                           
+license: (ISC) MIT                                                                                                                                               
+About to write to D:\Projects\mern-tutorial\package.json:
+
+{
+  "name": "mern-tutorial",
+  "version": "1.0.0",
+  "description": "Goalsetter app for youtube tutorial",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "dinod tharinda",
+  "license": "MIT"
+}
+
+
+Is this OK? (yes) yes
+PS D:\Projects\mern-tutorial> npm i express dotenv mongoose colors  //second command
+
+added 83 packages, and audited 84 packages in 21s
+
+8 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS D:\Projects\mern-tutorial>  npm i -D nodemon  // third command
