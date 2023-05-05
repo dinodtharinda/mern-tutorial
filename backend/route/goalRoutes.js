@@ -6,7 +6,7 @@ router.get('/',(req,res)=>{
 })
 
 router.post('/',(req,res)=>{
-    res.status(200).json({message:'set goals'})
+    res.status(200).json({message:'set goals fd'})
 })
 
 router.put('/:id',(req,res)=>{
